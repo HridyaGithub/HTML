@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8)20%,rgba(0,0,0,0),rgba(0,0,0,0.8)92%), url(image/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+}
+.header{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 106px;
+}
+.logo{
+    display: inline;
+}
+.logosvg{
+    width: 9.5rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: inline;
+}
+.logog{
+    width: 140px;
+    height: 40px;
+}
+.rightCorner{
+    float: right;
+    width: 202px;
+}
+.select{
+    display: inline;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    float: left;
+    box-sizing: border-box;
+    padding-top: 10px
+}
+.svgdiv{
+    display: inline;
+}
+.selectdiv{
+    display: inline;
+}
+.svgdiv1{
+    color: rgb(255,255,255);
+    display: inline;
+}
+.button{
+    float: right;
+    padding-top: 10px;
+}
+#signIn{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: rgb(229,9,20);
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#signIn:hover{
+    background-color: rgba(229, 9, 20, 0.781) ;
+}
+.content{
+    width: 100%;
+    height: 489px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 41.6px;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    font-family: Helvetica;
+    padding-left: 167px;
+    padding-top: 105px;
+}
+p[price]{
+    color: rgb(255,255,255);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 23px;
+}
+h3{
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Helvetica;
+    padding-top: 25px;
+}
+.mail-arrow{
+    display: flex;
+    padding-top: 19px;
+    justify-content: center;
+}
+.mail{
+    padding-right: 8px;
+}
+.mail:active,
+.mail::after{
+    outline: 5px;
+    outline-offset: 6px;
+}
+.btn{
+    background-color: rgb(229,9,20);
+    color: rgb(255,255,255);
+    font-family: helvetica;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 209.5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(206, 19, 16, 0.915) !important;
+}
+#arrow{
+    width: 21px;
+    height: 21px;
+}
+input{
+    width: 350px;
+    height: 54px;
+    font-size: 15.5px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    background:linear-gradient(rgba(27, 25, 25, 0.8),rgba(27, 25, 25, 0.8));
+    padding-left: 15px;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+}
+.body2{
+    width: 100%;
+    height: 524.05px;
+    background-color: black;
+    display: flex;
+}
+.body2left{
+    width: 50%;
+    height: 100%;
+}
+h2[left]{
+    color: rgb(255,255,255);
+    font-family: Helvetica ;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 165px;
+    padding-top: 156px;
+}
+p[left]{
+    color: rgb(255,255,255);
+    font-family: helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 165px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.body2right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    transform: translate(-0, -3%);
+}
+.TVimg{
+    width: 508.08px;
+    height: 377px;   
+    padding-top: 80px;
+    padding-left: 7px;
+}
+.body2vdo{
+    width: 442px;
+    height: 280px;
+    max-width: 90%;
+    position: absolute;
+    z-index: -1;
+    left: 11%;
+    top: 27%;
+}
+.body3{
+    width: 100%;
+    height: 524.05px;
+    background-color: black;
+    display: flex;
+}
+.body3left{
+    width: 50%;
+    height: 100%;
+    padding-top: 62px;
+    padding-left: 87px;
+}
+.imgdiv{
+    position: relative;
+    text-align: center;
+}
+.phone1{
+    width: 508.08px;
+    height: 385.05px;
+}
+.phone2{
+    width: 282.03px;
+    height: 104px;
+    position: absolute;
+    left: 29%;
+    bottom: 8%;
+    background: rgb(0,0,0);
+    display: flex;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+}
+#strangerPoster{
+    width: 57.14px;
+    height: 80px;
+    padding: 11px;
+}  
+#phone2Text{
+    padding-left: 4px;
+    padding-top: 35px;
+}
+#strangerText{
+    font-size: 1rem;
+    color: rgb(255,255,255);
+    font-weight: 600;
+    font-family: Helvetica ,sans-serif;
+}
+#downloadText{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #0071eb;
+    font-family: Helvetica ,sans-serif;
+    float: left;
+}
+#logoDownload{
+    height: 3.1rem;
+    width: 3rem;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    background-size: 100%;
+}
+#logoDownloadDiv{
+    padding-top: 28px;
+    padding-left: 7px;
+}
+.body3right{
+    width: 40%;
+}
+h2[right]{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+    padding-top: 141px;
+}
+p[right]{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+    padding-top: 10px;
+}
+.body4{
+    width: 100%;
+    height: 524.05px;
+    background-color: black;
+    display: flex;
+}
+.body4left{
+    width: 50%;
+}
+.body4right{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    transform: translate(-2%, 17%);
+}
+.appleTVimg{
+    width: 508.08px;
+    height: 381.05px;
+}
+.body4vdo{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 40%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 7%;
+    left: 18%;
+    z-index: -1;
+}
+.body5{
+    width: 100%;
+    height: 524.05px;
+    background-color: black;
+    display: flex;
+}
+.body5left{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 160px;
+    padding-top: 64px;
+}
+.body5right{
+    padding-top: 124px;
+    width: 38%;
+}
+h2[body5]{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    font-family: Helvetica,sans-serif;
+}
+p[body5]{
+    width: 483px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    font-family: Helvetica,sans-serif;
+    padding-top: 12px;
+}
+.body6{
+    width: 100%;
+    height: 919.59px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+h2[body6]{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: Helvetica,sans-serif;
+    padding-top: 41px;
+}
+#body6List{
+    width: 999.99px;
+    padding-left: 161px;
+}
+.btn-h3{
+    font-size: 25px;
+    background-color: rgb(45,45,45);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.btn-li{
+    list-style-type: none;
+    margin: 0 0 0.5rem 0;
+
+}
+.btn-btn{
+    background: none;
+    border: none; 
+    cursor: pointer;
+    display: flex;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+.btn-svg{
+    width: 33px;
+    height: 33px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    padding-left: 159px;
+    box-sizing: border-box;
+}
+.call{
+    color: rgba(255,255,255,0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-top: 66px;
+}
+.list{
+    padding-top: 26px;
+}
+ul[footer]{
+    list-style-type: none;
+    columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  width: 87%;
+  height: 140px;
+}
+.link-list{
+    color: rgba(255,255,255,0.7); 
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    cursor: pointer;
+}
+.li-footer{
+    padding-bottom: 14px;
+}
+.netflixIndia{
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
